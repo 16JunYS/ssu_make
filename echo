@@ -1,0 +1,8 @@
+a : b
+	echo "aa"
+b : c
+	echo "bb"
+c : a b
+	echo "cc"
+d : d
+	echo "dd"
